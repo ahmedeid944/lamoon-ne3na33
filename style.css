@@ -1,0 +1,227 @@
+/* global styles  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.clear-fix {
+  clear: both;
+}
+ul {
+  list-style-type: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alegreya", serif;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* global styles  */
+
+/* start home styling  */
+
+.home {
+  background-image: url(../photo_2025-04-04_04-46-08.jpg);
+  min-height: 100vh;
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.home .nav .nav-img {
+  width: 13%;
+  float: left;
+  padding: 10px;
+}
+.home .nav .nav-img img {
+  width: 100%;
+}
+.home .nav ul {
+  float: right;
+  padding: 20px;
+  margin-left: 20px;
+}
+.home .nav ul li {
+  float: left;
+  padding-right: 20px;
+  color: #fff;
+}
+
+.home .home-content {
+  text-align: center;
+  margin-top: 80px;
+  color: #fff;
+}
+.home .home-content h1 {
+  font-size: 76px;
+  padding: 30px 0 30px 0;
+}
+.home .home-content p {
+  font-size: 24px;
+}
+.home .home-content .btns {
+  margin-top: 20px;
+}
+.home .home-content .btns .btn1 {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #8e7754;
+  color: #fff;
+  margin-right: 10px;
+}
+.home .home-content .btns .btn2 {
+  padding: 15px 20px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px;
+}
+.scroll {
+  width: 40px;
+  height: 60px;
+  border: 2px solid #fff;
+  margin: auto;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+/* end home styling  */
+
+/* start who-we-are section styling */
+
+.who-we-are {
+  margin-top: 80px;
+}
+.who-we-are .who-we-are-img {
+  width: 40%;
+  display: inline-block;
+}
+.who-we-are .who-we-are-img img {
+  width: 100%;
+}
+.who-we-are .who-are-text {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 25px;
+  margin-left: 20px;
+}
+.who-we-are .who-are-text p {
+  padding: 20px 0;
+  color: #686868;
+}
+.who-we-are .who-are-text ul li {
+  color: #686868;
+  padding: 15px;
+}
+.who-we-are .who-are-text ul li img {
+  width: 40px;
+  vertical-align: middle;
+  border: 1px solid #686868;
+  border-radius: 50%;
+}
+/* end who-we-are section styling */
+
+/* start our baking section styling  */
+
+.our-baking {
+  margin-top: 80px;
+}
+.our-baking .baking-title{
+    text-align: center;
+}
+.our-baking .baking-title h3{
+    font-size: 30px;
+}
+.our-baking .baking-title P{
+    color: #686868;
+    padding: 20px 0;
+    font-size: 17px;
+}
+.our-baking .baking {
+  width: 33%;
+  float: left;
+  padding: 30px;
+}
+.our-baking .baking .baking-img img {
+  width: 100%;
+  border-radius: 5px;
+}
+.our-baking .baking .baking-text {
+  text-align: center;
+  color: #686868;
+}
+.our-baking .baking .baking-text h3 {
+  padding: 15px 0;
+  color: #000;
+}
+
+/* end our baking section styling  */
+
+
+.footer{
+    background-color: #403D38;
+    margin-top: 70px;
+}
+.footer .footer-card{
+    width: 25%;
+    float: left;
+    padding-right: 10px;
+    color: #686868;
+}
+.footer .footer-card h4{
+    color: #fff;
+    font-size: 18px;
+}
+.footer .footer-card ul li{
+    padding: 8px 0;
+}
+.footer .footer-card p{
+    padding: 10px 0;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  .home .nav .nav-img,
+  .home .nav ul {
+    float: none;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .home .nav ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+
+  .who-we-are .who-we-are-img,
+  .who-we-are .who-are-text {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .our-baking .baking {
+    width: 100%;
+    float: none;
+    padding: 10px 0;
+  }
+
+  .footer .footer-card {
+    width: 100%;
+    float: none;
+    padding: 10px 0;
+  }
+}
